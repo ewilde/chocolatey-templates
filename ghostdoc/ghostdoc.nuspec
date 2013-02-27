@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ghostdoc</id>
+    <title>ghostdoc</title>
+    <version>4.0.12298</version>
+    <authors>Submain</authors>
+    <owners>Edward Wilde</owners>
+    <summary>ghostdoc</summary>
+    <description>GhostDoc is a free Visual Studio extension that automatically generates XML documentation comments for methods and properties based on their type, parameters, name, and other contextual information.</description>
+    <projectUrl>http://submain.com/products/ghostdoc.aspx</projectUrl>
+    <tags>ghostdoc admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://submain.com/products/ghostdoc.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/Your Repository/raw/master/ghostdoc/ghostdoc.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
