@@ -3,7 +3,7 @@
   <metadata>
     <id>ghostdoc</id>
     <title>ghostdoc</title>
-    <version>4.0.12298</version>
+    <version>4.5.13017</version>
     <authors>Submain</authors>
     <owners>Edward Wilde</owners>
     <summary>ghostdoc</summary>
@@ -12,11 +12,7 @@
     <tags>ghostdoc admin</tags>
     <copyright></copyright>
     <licenseUrl>http://submain.com/products/ghostdoc.aspx</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/Your Repository/raw/master/ghostdoc/ghostdoc.gif</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>    
     <releaseNotes></releaseNotes>
   </metadata>
   <files>

@@ -10,10 +10,10 @@
 	}
   
   $dir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)	
-  $file = (Join-Path $dir 'GhostDoc v4.0.12289.exe')
-  Install-ChocolateyZipPackage 'ghostdoc' 'http://submain.com/download/GhostDoc_v4.0.zip' $dir -options $options
+  $file = (Join-Path $dir 'GhostDoc v4.5.13017.exe')
+  Install-ChocolateyZipPackage 'ghostdoc' 'http://submain.com/download/GhostDoc_v4.5.zip' $dir -options $options
   Install-ChocolateyInstallPackage 'ghostdoc' 'exe' '/nosilentargsexist' $file
   [System.IO.File]::Delete($file)
-  [System.IO.File]::Delete((Join-Path $dir 'GhostDoc Pro v4.0.12289.exe'))
+  [System.IO.File]::Delete((Join-Path $dir 'GhostDoc Pro v4.5.13099.exe'))
   
   
