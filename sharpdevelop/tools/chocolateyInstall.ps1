@@ -1,7 +1,7 @@
 ﻿#try { #error handling is only necessary if you need to do anything in addition to/instead of the main helpers
   # main helpers - these have error handling tucked into them so they become the only line of your script if that is all you need.
   # installer, will assert administrative rights
-  Install-ChocolateyPackage 'sharpdevelop' 'msi' '/q' 'http://switch.dl.sourceforge.net/project/sharpdevelop/SharpDevelop%204.x/4.2/SharpDevelop_4.2.2.8818_Setup.msi' -validExitCodes @(0)
+  Install-ChocolateyPackage 'sharpdevelop' 'msi' '/q' 'http://downloads.sourceforge.net/sharpdevelop/SharpDevelop_4.3.1.9430_Setup.msi?download' -validExitCodes @(0)
   # "/s /S /q /Q /quiet /silent /SILENT /VERYSILENT" # try any of these to get the silent installer #msi is always /quiet
   #Exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
   # download and unpack a zip file

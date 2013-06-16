@@ -3,21 +3,23 @@
   <metadata>
     <id>sharpdevelop</id>
     <title>SharpDevelop</title>
-    <version>4.2.2</version>
+    <version>4.3.1</version>
     <authors>IC#Code Team</authors>
     <owners>Edward Wilde</owners>
     <summary>sharpdevelop</summary>
     <description>SharpDevelop (also styled as #develop) is a free and open source integrated development environment (IDE) for the Microsoft .NET, Mono, Gtk# and Glade# platforms, and supports development in C#, Visual Basic .NET, Boo, F#, IronPython and IronRuby programming languages.</description>
     <projectUrl>http://www.icsharpcode.net/opensource/sd/</projectUrl>
     <tags>sharpdevelop admin</tags>
-    <copyright></copyright>
+    <copyright>Copyright ©2001-2012 IC#Code.</copyright>
     <licenseUrl>http://www.icsharpcode.net/OpenSource/SD/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>https://github.com/Your Repository/raw/master/sharpdevelop/sharpdevelop.gif</iconUrl>-->
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+    You need to have at least the .NET 3.5 runtime installed on your machine (SP1 required!). The SDK is optional but recommended. .NET Framework 3.5, Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 SP1. Supported operating systems: Windows XP SP2 and later (eg Windows Server 2008 R2 and Windows 7)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
