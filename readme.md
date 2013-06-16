@@ -11,3 +11,10 @@ Open a command prompt, and naviage into the correct directory
     cpack
 
 Now upload the updated nupkg
+
+
+#Test your package
+
+    cinst [packageName] -source %cd%
+
+%cd% = current directory
